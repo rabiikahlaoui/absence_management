@@ -1,0 +1,35 @@
+{
+  "name": "absence_management",
+  "version": "1.0.0",
+  "description": "The backend part of the absence management tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabiikahlaoui/absence_management.git"
+  },
+  "keywords": [
+    "absence",
+    "management",
+    "react",
+    "nodejs",
+    "graphql"
+  ],
+  "author": "Rabii Kahlaoui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rabiikahlaoui/absence_management/issues"
+  },
+  "homepage": "https://github.com/rabiikahlaoui/absence_management#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "nodemon": "^2.0.20"
+  }
+}
